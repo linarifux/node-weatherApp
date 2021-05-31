@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header{
+    padding: 50px;
+    text-align: center;
+}
+
+.header h1{
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+.main-area{
+    margin-top: 70px;
+}
+form{
+    margin: 0 auto;
+    width: 210px;
+}
+
+input{
+    padding: 10px;
+    margin: 5px 0;
+}
+
+input[type="submit"]{
+    margin-left: 80px;
+}

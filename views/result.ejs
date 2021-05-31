@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%- siteInformation.name %> </title>
+    <link rel="stylesheet" href="/result.css" class="css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Weather Report of <%- cityName %></h1>
+        </div>
+        <div class="main-area">
+            <div class="temp result">
+                <p>Temperature</p>
+                <p><%- temp %>°C</p>
+            </div>
+            <div class="feels result">
+                <p>Feels Like</p>
+                <p><%- feelsLike %>°C</p>
+            </div>
+            <div class="wind result">
+                <p>Wind Speed</p>
+                <p><%- wind %> </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
